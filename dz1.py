@@ -8,3 +8,5 @@ import pandas as pd
 df = pd.read_csv('Electricity production by source.csv')
 
 print(df.head())
+print(df.info())
+print(df.describe())
