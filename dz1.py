@@ -5,4 +5,6 @@
 
 import pandas as pd
 
-df = pd.read_csv('tictactoe_games.csv')
+df = pd.read_csv('Electricity production by source.csv')
+
+print(df.head())
